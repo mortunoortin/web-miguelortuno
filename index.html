@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miguel Ortuño — Department of Physics, Universidad de Murcia</title>
+<meta name="description" content="Miguel Ortuño, Professor of Physics at Universidad de Murcia. Research on disordered systems, quantum transport and superconductor–insulator transitions.">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #e0ddd8;
+    --bg: #fdfcfa;
+    --accent: #7a2e2e;
+    --measure: 40rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8e6e3;
+      --muted: #a3a09b;
+      --rule: #34322e;
+      --bg: #16150f;
+      --accent: #d99b8f;
+    }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 6rem;
+  }
+
+  header.masthead { margin-bottom: 2.5rem; }
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.35rem;
+  }
+
+  .affiliation {
+    color: var(--muted);
+    font-size: 0.975rem;
+    margin: 0;
+  }
+
+  nav {
+    margin: 1.75rem 0 0;
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.875rem;
+  }
+
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+    margin-right: 1.4rem;
+    display: inline-block;
+  }
+
+  nav a:hover { color: var(--accent); }
+
+  section { margin: 3.25rem 0 0; scroll-margin-top: 1.5rem; }
+
+  h2 {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 1.1rem;
+  }
+
+  h3 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    margin: 2rem 0 0.6rem;
+  }
+
+  p { margin: 0 0 1.1rem; }
+
+  a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 2px; }
+  a:hover { text-decoration-color: var(--accent); }
+
+  ul { margin: 0 0 1.1rem; padding-left: 1.15rem; }
+  li { margin-bottom: 0.45rem; }
+
+  .year {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--muted);
+    margin: 1.9rem 0 0.6rem;
+    letter-spacing: 0.03em;
+  }
+
+  ol.pubs { list-style: none; margin: 0; padding: 0; }
+
+  ol.pubs li {
+    margin-bottom: 0.9rem;
+    padding-left: 1.4rem;
+    text-indent: -1.4rem;
+    font-size: 0.9875rem;
+  }
+
+  ol.pubs em { font-style: italic; }
+  ol.pubs .me { font-weight: 600; }
+
+  dl.teaching { margin: 0; }
+  dl.teaching dt { font-weight: 600; margin-top: 1.1rem; }
+  dl.teaching dd { margin: 0.15rem 0 0; color: var(--muted); font-size: 0.9375rem; }
+
+  .contact-list { list-style: none; margin: 0; padding: 0; }
+  .contact-list li { margin-bottom: 0.4rem; }
+  .contact-list span {
+    display: inline-block;
+    min-width: 5.5rem;
+    color: var(--muted);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.8125rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  footer {
+    margin-top: 4.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.8125rem;
+  }
+
+  .todo {
+    background: rgba(122, 46, 46, 0.07);
+    border-left: 2px solid var(--accent);
+    padding: 0.5rem 0.85rem;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 0 0 1.2rem;
+  }
+
+  @media (max-width: 34rem) {
+    .wrap { padding: 3rem 1.25rem 4rem; }
+    h1 { font-size: 1.5rem; }
+    nav a { margin-right: 1.1rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <h1>Miguel Ortuño</h1>
+    <p class="affiliation">Professor of Physics · Department of Physics, Universidad de Murcia</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#other">Other</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p class="todo">Sustituye este párrafo por tu presentación. Dos o tres frases bastan: quién eres, dónde trabajas y qué te interesa.</p>
+    <p>
+      I am a professor of physics at the Universidad de Murcia, where I work in the
+      Department of Physics and the Centro de Investigación en Óptica y Nanofísica (CIOyN).
+      My work combines experiment and computation in condensed matter physics, with a
+      long-standing focus on how disorder shapes the electronic properties of solids.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+
+    <h3>Disordered systems and quantum transport</h3>
+    <p>
+      Electron transport in strongly disordered materials, where interference and
+      interactions compete with randomness. This includes hopping conduction,
+      Anderson localization, and the collective effects that emerge when Coulomb
+      interactions cannot be neglected.
+    </p>
+
+    <h3>Superconductor–insulator transitions in amorphous thin films</h3>
+    <p>
+      Experimental and numerical study of the transition between superconducting and
+      insulating behaviour in amorphous films, a setting where a single tuning
+      parameter drives a system across a genuine quantum phase transition.
+    </p>
+
+    <h3>Quantum information and computation</h3>
+    <p>
+      Work at the interface between many-body physics and quantum information,
+      including numerical approaches to correlated quantum systems.
+    </p>
+
+    <p class="todo">Ajusta o amplía estos tres bloques. Si quieres añadir figuras, colócalas en una carpeta <code>img/</code> junto a este fichero.</p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+
+    <p class="todo">Aquí va tu lista completa por años. Abajo tienes la estructura con dos entradas de ejemplo — sustitúyelas por las tuyas siguiendo el mismo formato. Tu nombre va entre etiquetas <code>&lt;span class="me"&gt;</code> para que aparezca resaltado.</p>
+
+    <p class="year">2026</p>
+    <ol class="pubs">
+      <li>
+        A. Author, <span class="me">M. Ortuño</span> and B. Author.
+        Title of the paper goes here.
+        <em>Journal Name</em> <strong>00</strong>, 000000 (2026).
+      </li>
+    </ol>
+
+    <p class="year">2025</p>
+    <ol class="pubs">
+      <li>
+        <span class="me">M. Ortuño</span>, C. Author and D. Author.
+        Another title goes here.
+        <em>Journal Name</em> <strong>00</strong>, 000000 (2025).
+      </li>
+    </ol>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <p class="todo">Lista aquí las asignaturas. Puedes borrar las de ejemplo.</p>
+    <dl class="teaching">
+      <dt>Course name</dt>
+      <dd>Degree in Physics · Universidad de Murcia</dd>
+
+      <dt>Course name</dt>
+      <dd>Master's programme · Universidad de Murcia</dd>
+    </dl>
+  </section>
+
+  <section id="other">
+    <h2>Other</h2>
+
+    <h3>Outreach and software</h3>
+    <p class="todo">Charlas de divulgación, código publicado, herramientas. Borra lo que no aplique.</p>
+    <ul>
+      <li>Talk or outreach activity — venue, year.</li>
+      <li>Software or code released — short description and link.</li>
+    </ul>
+
+    <h3>Academic service</h3>
+    <ul>
+      <li>Committee, editorial or reviewing role — years.</li>
+      <li>Conference organisation — event and year.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li><span>Email</span> <a href="mailto:CORREO@um.es">CORREO@um.es</a></li>
+      <li><span>Office</span> Departamento de Física, Facultad de Química</li>
+      <li><span>Address</span> Campus de Espinardo, 30100 Murcia, Spain</li>
+    </ul>
+    <p class="todo">Rellena el correo y el despacho. Si prefieres no publicar el correo tal cual, escríbelo como <code>nombre [at] um.es</code>.</p>
+  </section>
+
+  <footer>
+    Miguel Ortuño · Universidad de Murcia
+  </footer>
+
+</div>
+</body>
+</html>

@@ -182,17 +182,52 @@ li { margin-bottom: 0.4rem; }
   margin: 2.1rem 0 0.7rem;
 }
 
+.pub-year {
+  margin: 2.2rem 0 0.7rem;
+  padding-bottom: 0.15rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gold);                 /* acento dorado */
+  border-bottom: 1px solid #e2e2e2;
+}
+.pub-year:first-of-type { margin-top: 1rem; }
+
 ol.pubs { list-style: none; margin: 0; padding: 0; }
 
 ol.pubs li {
-  margin-bottom: 0.85rem;
-  padding-left: 1.5rem;
-  text-indent: -1.5rem;
-  font-size: 1rem;
+  margin: 0 0 1.05rem;
+  max-width: 46em;                /* línea legible, < 80 caracteres */
 }
 
 ol.pubs .me { font-weight: 700; color: var(--navy); }
 ol.pubs em { font-style: italic; }
+.pub-authors,
+.pub-ref { display: block; font-size: 0.93em; color: #4a4a4a; }
+
+.pub-title {
+  display: block;
+  color: #10305c;                 /* azul marino de los títulos */
+  font-weight: 600;
+}
+
+.pub-ref em { font-style: italic; }
+
+.pub-pdf {
+  margin-left: 0.4em;
+  font-size: 0.82em;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: #b07d2b;
+  border-bottom: 1px solid currentColor;
+  white-space: nowrap;
+}
+.pub-pdf:hover,
+.pub-pdf:focus { color: #10305c; }
+
+/* Índice de años, si lo usas */
+.year-index { margin: 0 0 1.6rem; font-size: 0.9em; line-height: 1.9; }
+.year-index a { margin-right: 0.55em; text-decoration: none; color: #10305c; }
+.year-index a:hover { text-decoration: underline; }
 
 /* ----- Libros ----- */
 
